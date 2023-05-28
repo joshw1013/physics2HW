@@ -1,0 +1,15 @@
+p = 2.02 * 10^-9;
+a = .119;
+b = 2.3 * a;
+rd = 1.5 * a;
+qd = p * sphere(rd, a);
+Ed = Eout(qd, rd);
+disp(Ed);
+re = b;
+qe = p * sphere(re, a);
+Ee = Eout(qe, re);
+disp(Ee);
+rf = 3 * b;
+qf = p * sphere(b, a);
+Ef = Eout(qf, rf);
+disp(Ef);

@@ -1,0 +1,17 @@
+a = .034;
+b = 2 * a;
+c = 2.4 * a; 
+q1 = 5.52 * 10^-15;
+q2 = -q1;
+disp(0);
+r2 = a/2;
+E2 = Ein(q1, r2, a);
+disp(E2);
+E3 = Eout(q1, a);
+disp(E3);
+E4 = Eout(q1, 1.5 * a);
+disp(E4);
+disp(0);
+disp(0);
+disp(-q1);
+disp(0);

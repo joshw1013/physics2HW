@@ -1,0 +1,12 @@
+L = .0822;
+q = -4.55E-15;
+a = .141;
+lambda = q/L;
+disp(lambda);
+E = k0() * lambda * (1/a - 1/(L+a));
+disp(E);
+a = 78;
+E = k0() * lambda * (1/a - 1/(L+a));
+disp(E);
+E = k0() * q / 78^2;
+disp(E);

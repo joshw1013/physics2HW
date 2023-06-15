@@ -1,0 +1,15 @@
+V = 10;
+C = 15;
+YL = 1/(2/C);
+Y = YL + C;
+Right = 1/(1/Y + 1/C);
+Total = 1/(1/Right + 1/C);
+Qtotal = Total * V;
+Q1 = V * C;
+Qright = V*Right;
+Qy = Qright;
+Vy = Qy / Y;
+Qyl = Vy * YL;
+Q2 = Qyl;
+disp(Q1);
+disp(Q2);

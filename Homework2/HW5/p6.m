@@ -1,4 +1,3 @@
-addpath(genpath(pwd));
 Q = 1.6e-19;
 r1 = 3.8e-3;
 r2 = 3.8e-6;

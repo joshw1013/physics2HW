@@ -1,0 +1,14 @@
+C1 = 10e-6;
+C2 = 22e-6;
+C3 = 27e-6;
+V = 140;
+Q = V * C1;
+V2 = Q / C2;
+V3 = Q / C3;
+U1 = Q^2 / (2 * C1);
+U2 = Q^2 / (2 * C2);
+U3 = Q^2 / (2 * C3);
+U = U1 + U2 + U3;
+Vtotal = V + V2 + V3;
+disp(Vtotal);
+disp(U);

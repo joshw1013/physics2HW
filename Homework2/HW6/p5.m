@@ -1,0 +1,9 @@
+L = 9e-3;
+Es = 6e3;
+r3 = 2.04e-3;
+levels = 8;
+dE = Es / levels;
+E1 = dE * 5; 
+E2 = dE * 8;
+E3 = dE * 3;
+p = E3 / 

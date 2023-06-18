@@ -1,0 +1,10 @@
+den = 1000;
+Uden= 2256e3;
+t = 2.12e-3;
+p = 163;
+l = 13.1e-2;
+A = 17e-5;
+U = Uden * den * A * l;
+R = p * l / A;
+I = sqrt(U / (t * R));
+disp(I);

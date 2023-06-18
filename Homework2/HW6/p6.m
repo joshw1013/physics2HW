@@ -1,3 +1,10 @@
 Vs = 11e-6;
 r = 2.3e-3;
 A = pi * r^2;
+p = 1.69e-8;
+Xs = 2.2;
+R = p * Xs / A;
+E = Vs / Xs;
+J = 1 / p * E;
+I = J * A;
+disp(I);

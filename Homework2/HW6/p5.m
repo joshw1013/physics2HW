@@ -6,4 +6,8 @@ dE = Es / levels;
 E1 = dE * 5; 
 E2 = dE * 8;
 E3 = dE * 3;
-p = E3 / 
+const = E3 * r3^2;
+r2 = sqrt(const / E2);
+r1 = sqrt(const / E1);
+disp(r1 * 10^3);
+disp(r2 * 10^3);

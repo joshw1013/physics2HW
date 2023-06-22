@@ -1,0 +1,10 @@
+i = 2.8;
+d = 13.8e-2;
+theta = 30;
+B = mu0() * i / (2 * pi * d);
+Bnet = 2 * B;
+By = Bnet * tand(theta);
+B1 = By + B;
+d1 = -mu0() * i / (2 * pi * B1);
+disp(d1);
+disp(-d1);

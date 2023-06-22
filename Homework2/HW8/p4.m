@@ -1,2 +1,11 @@
 i = 2.45e-3;
 r = 3.61e-2;
+Bstraight = mu0() * i / (2 * pi * r);
+Bcircle = mu0() * i * 2 * pi / (4 * pi * r);
+disp(0);
+disp(0);
+Btotal = Bstraight + Bcircle;
+disp(Btotal);
+disp(Bcircle);
+disp(0);
+disp(Bstraight);
